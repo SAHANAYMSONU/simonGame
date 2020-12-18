@@ -12,7 +12,7 @@ $(".btn").click(function() {
   playSound(userChosenColor);
   animatePress(userChosenColor);
   checkAnswer(userClickedPattern.length - 1);
-
+  $(document).focus();
 });
 
 
